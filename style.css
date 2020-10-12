@@ -1,0 +1,59 @@
+html{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+.poster{
+  width: 50vw;
+  height: 120vh;
+  background-color: #dfe2d7;
+}
+.yellow{
+  margin-top:0;
+  width:65%;
+  height:50%;
+  background-color: #dfbd03;
+}
+.red{
+  margin-bottom: 0;
+  width:65%;
+  height:50%;
+  background-color: #d0191e;
+}
+.blue{
+  position:relative;
+  margin-left: 35%;
+  bottom:65%;
+  width:65%;
+  height:50%;
+  background-color:#047bac;
+  opacity:0.9;
+}
+.date{
+  font-size: 12px;
+  position:absolute;
+  top:15%;
+  left:28%;
+}
+.location{
+  font-size: 12px;
+  position:absolute;
+  top:15%;
+  right:28%;
+}
+.title{
+  position:absolute;
+  top:30%;
+  left:28%;
+  font-size: 36px;
+}
+.people{
+  position:absolute;
+  top:45%;
+  left:28%;
+  font-size: 16px;
+}
